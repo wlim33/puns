@@ -19,8 +19,8 @@ class AsyncApp extends Component {
                 <div className="jumbotron jumbotron-fluid">
   <div className="container">
     <h1 className="display-4">Pun Generator</h1>
-    <p className="lead">This is a pun generator. This site utilizes the <a href="https://www.datamuse.com/api/">Datamuse API</a>.
-    The source code can be found here:
+    <p className="lead">This generator utilizes the <a href="https://www.datamuse.com/api/">Datamuse API</a>.
+    The source code can be found <a href="https://github.com/wlim33/puns/tree/master">here</a>.
     Click on an entry to copy to the clipboard!
 </p>
 </div>

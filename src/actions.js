@@ -6,7 +6,7 @@ export const ADD_TO_HISTORY = 'ADD_TO_HISTORY';
 
 
 const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const badwords = ["the", "on", "of", "a", "in", "are", "was", "by"];
+const badwords = ["the", "on", "of", "a", "in", "are", "was", "by", "who"];
 
 const options = {
     method: 'GET',

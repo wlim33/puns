@@ -40,7 +40,7 @@ function history(state = {
                     search: action.search,
                     pun: action.pun,
                     isSuccess: action.isSuccess
-                }, ...state.pastSearches,]
+                }, ...state.pastSearches,].slice(0, 31)
             }
         default:
             return state;

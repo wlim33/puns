@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 class PhraseInput extends Component {
         render() {
             const { isFetching, isSuccess } = this.props;
-
             let input;
             return (<form onSubmit={ e => {
                             e.preventDefault()
@@ -16,7 +15,7 @@ class PhraseInput extends Component {
                         }
                     }  >
 
-                    <div className="form-group my-5">
+                    <div className="form-group my-2">
                     <div className="input-group">
 
                             <input
@@ -32,7 +31,9 @@ class PhraseInput extends Component {
                             </div>
 
                         </div>
-                        {(isSuccess !== undefined) && <small className="form-text text-muted">{isFetching ? "generating puns..." : (isSuccess === false ? "no puns found!" : " ")} </small>}
+                        <small className="form-text text-muted">
+                            {isFetching !== undefined ? (isFetching ? "generating puns..." : (isSuccess === false ? "no puns found!" : <div>&nbsp;</div>)) : <div>&nbsp;</div>}
+                        </small>
                     </div>
                 </form>)
         }
