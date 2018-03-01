@@ -1,6 +1,6 @@
 # Pun Generator
 
-Try it [here](https://wlim33.github.io/puns/)!
+[Working version](https://wlim33.github.io/puns/)!
 
 A pun generator. Works best with phrases. Uses [Datamuse API](https://www.datamuse.com/api/), and preserves punctuation and capitalization.
 
